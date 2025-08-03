@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #801313;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background-color: #ffff;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d15742;
+    font-family: "Georgia", serif;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out; /* Transição suave de 0.3s */
+}
+header nav ul li a:hover{
+    color: #d15742;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+section p{
+    color: white;
+}
+section h2 {
+    color: white;
+    margin-bottom: 10px; /* Adiciona um espaçamento entre o título e as imagens */
+}
+
+section a {
+    display: inline-block; /* Faz com que as imagens fiquem lado a lado */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+section img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+
+
+/* CONTAINER PARA RECEITAS */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* ITENS INDIVIDUAIS */
+.receita {
+    text-align: center;
+    max-width: 300px;
+}
+
+.receita img {
+    width: 100%;
+}
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #833527;
+    color: #ffff;
+}
+
+footer ul li {
+    padding: 15px;
+    display: inline;
+    align-items: center;
+}
+footer li a img{
+    transition: transform 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+
+}
+footer li a:hover img{
+    transform: scale(1.1);  /* Efeito de aumento no hover */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form h3{
+    color: white;
+}
+form label {
+    color: white;
+}
+
+
+
