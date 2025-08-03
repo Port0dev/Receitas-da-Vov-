@@ -1,2 +1,2 @@
-# Receitas-da-Vov-
+# Receitas-da-Vovo-
 Meu primeiro projeto faculdade
